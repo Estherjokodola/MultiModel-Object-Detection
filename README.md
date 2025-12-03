@@ -21,3 +21,18 @@ Install all required dependencies in a single command:
 ```bash
 pip install tensorflow>=2.0 opencv-python numpy matplotlib pillow tqdm
 
+## Usage
+
+### Annotate an Image
+```bash
+python example_file_pipeline.py
+
+### Annotate an Video
+```bash
+python example_video_pipeline.py
+
+
+### Real-Time Webcam Detection
+```bash
+python example_webcam_pipeline.py
+
